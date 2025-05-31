@@ -1,4 +1,4 @@
-(defproject okapi/lein-template "1.0.0-SNAPSHOT"
+(defproject okapi/lein-template "1.0.0"
 
   :description "A simple leiningen template "
   :url "https://github.com/ruroru/okapi"
