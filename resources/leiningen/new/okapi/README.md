@@ -1,4 +1,4 @@
-[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.jj/archive.svg)](https://clojars.org/org.clojars.jj/archive)
+[![Clojars Project](https://img.shields.io/clojars/v/{{name}}.svg)](https://clojars.org/{{name}})
 
 # {{name}}
 {{name}} is a TODO
