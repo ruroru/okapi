@@ -1,6 +1,4 @@
-(ns {{name}}.core
-  (:require
-  []))
+(ns {{name}}.core)
 
 
 (defn foo []

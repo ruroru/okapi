@@ -5,7 +5,10 @@
 
 
 ## Installation
-TODO
+Add {{name}} to dependency list
+```clojure
+[{{name}} "1.0.0-SNAPSHOT"]
+```
 
 ## Usage
 TODO

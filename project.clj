@@ -1,4 +1,4 @@
-(defproject okapi/lein-template "1.0.2"
+(defproject org.clojars.jj/lein-template.okapi "1.0.0"
 
   :description "A simple leiningen template "
   :url "https://github.com/ruroru/okapi"
@@ -10,5 +10,6 @@
   :profiles {:test {:dependencies [[babashka/fs "0.5.27"]]}}
 
   :plugins [[org.clojars.jj/bump "1.0.4"]
+            [org.clojars.jj/bump-md "1.1.0"]
             [org.clojars.jj/strict-check "1.1.0"]]
   :eval-in-leiningen true)

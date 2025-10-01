@@ -52,8 +52,10 @@
                  :sanitized            (name-to-path name)
                  :year                 (year)
                  :clojure-version      (get-latest-version-from-maven-repository "org.clojure/clojure")
-                 :bump-version         (format "\"%s\"" (get-latest-version-from-clojars "org.clojars.jj/bump"))
-                 :strict-check-version (format "\"%s\"" (get-latest-version-from-clojars "org.clojars.jj/strict-check"))}]
+                 :logging-version      (get-latest-version-from-maven-repository "org.clojure/tools.logging")
+                 :bump-version         (get-latest-version-from-clojars "org.clojars.jj/bump")
+                 :bump-md-version      (get-latest-version-from-clojars "org.clojars.jj/bump-md")
+                 :strict-check-version (get-latest-version-from-clojars "org.clojars.jj/strict-check")}]
 
     (main/info "Generating fresh 'lein new' okapi project.")
     (->files context
