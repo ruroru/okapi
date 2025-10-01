@@ -1,18 +1,12 @@
 (ns leiningen.new.okapi-test
   (:require [babashka.fs :as fs]
             [clojure.test :refer [deftest is]]
-            [leiningen.new.okapi :as okapi])
-  (:import (java.io File)))
+            [leiningen.new.okapi :as okapi]))
 
 
 (defn- verify-files-exist [directory expected-files]
   (doseq [file expected-files]
     (is (fs/exists? (format "%s/%s" directory file)))))
-
-(defn- create-directory
-  [path-str]
-  (.mkdir (.getCanonicalFile (File. ^String path-str)))
-  )
 
 
 (deftest test-creation

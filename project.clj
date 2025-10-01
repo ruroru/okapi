@@ -1,14 +1,16 @@
-(defproject okapi/lein-template "1.0.0"
+(defproject org.clojars.jj/lein-template.okapi "1.0.0-SNAPSHOT"
 
-  :description "A simple leiningen template "
+  :description "A slightly better leiningen template "
   :url "https://github.com/ruroru/okapi"
   :license {:name "EPL-2.0"
             :url  "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[hato "1.0.0"]
+                 [org.clojars.jj/majavat "1.10.0"]
                  [org.clojure/data.json "2.5.1"]]
 
   :profiles {:test {:dependencies [[babashka/fs "0.5.27"]]}}
 
   :plugins [[org.clojars.jj/bump "1.0.4"]
+            [org.clojars.jj/bump-md "1.1.0"]
             [org.clojars.jj/strict-check "1.1.0"]]
   :eval-in-leiningen true)
