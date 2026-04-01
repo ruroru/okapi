@@ -7,7 +7,7 @@
   :dependencies [[hato "1.0.0"]
                  [org.clojure/data.json "2.5.1"]]
 
-  :profiles {:test {:dependencies [[babashka/fs "0.5.27"]]}}
+  :profiles {:test {:dependencies [[babashka/fs "0.5.32"]]}}
 
   :plugins [[org.clojars.jj/bump "1.0.4"]
             [org.clojars.jj/bump-md "1.1.0"]
